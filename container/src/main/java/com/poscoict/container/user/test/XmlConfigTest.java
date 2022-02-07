@@ -58,8 +58,16 @@ public class XmlConfigTest {
 		user = (User)ac.getBean("user4");
 		System.out.println(user);
 		
-		// setter를 사용한 Bean 가져오기
+		// setter를 사용한 Bean 가져오기 1
 		user = (User)ac.getBean("user5");
+		System.out.println(user);
+		
+		// setter를 사용한 Bean 가져오기 2(DI)
+		user = (User)ac.getBean("user6");
+		System.out.println(user);
+		
+		// setter를 사용한 Bean 가져오기 3(List Property)
+		user = (User)ac.getBean("user7");
 		System.out.println(user);
 		
 		// name으로 Bean 가져오기
