@@ -23,13 +23,13 @@ public class FileUploadService {
 		}
 		
 		String originFileName = multipartFile.getOriginalFilename();
-		String extName01 = originFileName.substring(originFileName.lastIndexOf('.'));     // .jpg
+//		String extName01 = originFileName.substring(originFileName.lastIndexOf('.'));     // .jpg
 		String extName02 = originFileName.substring(originFileName.lastIndexOf('.') + 1); // jpg (확장자만)
 		String saveFileName = generateSaveFileName(extName02);
 		long fileSize = multipartFile.getSize();
 		System.out.println("# originFileName : " + originFileName);
 		System.out.println("# fileSize : " + fileSize);
-		System.out.println("# extName01 : " + extName01);
+//		System.out.println("# extName01 : " + extName01);
 		System.out.println("# extName02 : " + extName02);
 		System.out.println("# saveFileName : " + saveFileName);
 		
