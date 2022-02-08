@@ -1,6 +1,4 @@
-package com.poscoict.container.config.videosystem;
-
-import com.poscoict.container.videosystem.DigitalVideoDisc;
+package com.poscoict.container.videosystem;
 
 public class Avengers implements DigitalVideoDisc {
 
